@@ -83,5 +83,5 @@ test:
 production:
   <<: *default
   database: splurty_production
-  # username: splurty
+ # username: splurty
   # password: <%= ENV['SPLURTY_DATABASE_PASSWORD'] %>
