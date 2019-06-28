@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 require File.expand_path('../boot', __FILE__)
+=======
+require_relative 'boot'
+>>>>>>> e31c6ebf71e14ca540f6f9a116a12a5f83a6862c
 
 require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
+<<<<<<< HEAD
 
 Bundler.require(:default, Rails.env)
 
@@ -29,3 +34,18 @@ module Splurty
 
   end
 end
+=======
+Bundler.require(*Rails.groups)
+
+module Splurty
+  class Application < Rails::Application
+    # Initialize configuration defaults for originally generated Rails version.
+    config.load_defaults 5.2
+
+    # Settings in config/environments/* take precedence over those specified here.
+    # Application configuration can go into files in config/initializers
+    # -- all .rb files in that directory are automatically loaded after loading
+    # the framework and any gems in your application.
+  end
+end
+>>>>>>> e31c6ebf71e14ca540f6f9a116a12a5f83a6862c
