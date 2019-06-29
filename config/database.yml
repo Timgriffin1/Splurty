@@ -10,25 +10,18 @@ development:
   <<: *default
   database: splurty_development
 
-<<<<<<< HEAD
+
   
-=======
->>>>>>> e31c6ebf71e14ca540f6f9a116a12a5f83a6862c
+
 test:
   <<: *default
   database: splurty_test
 
-<<<<<<< HEAD
+
 
 production:
   <<: *default
   database: splurty_production
   username: splurty
   password: <%= ENV['SPLURTY_DATABASE_PASSWORD'] %>
-=======
-production:
-  <<: *default
-  database: splurty_production
-  # username: splurty
-  # password: <%= ENV['SPLURTY_DATABASE_PASSWORD'] %>
->>>>>>> e31c6ebf71e14ca540f6f9a116a12a5f83a6862c
+
