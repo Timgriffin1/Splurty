@@ -56,8 +56,8 @@ end
 
 #
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'popper_js', '~> 1.11.1'
-gem 'bootstrap', '4.0.0.alpha6'
+gem 'popper_js'
+gem "bootstrap"
 gem 'simple_form'
 
 source 'https://rails-assets.org' do
